@@ -33,14 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+  github: "https://github.com/MikailHassan",
+  linkedin: "https://www.linkedin.com/in/MikailHassan/",
+  gmail: "mikailismail260@gmail.com@gmail.com",
+  facebook: "https://www.facebook.com/mikailalvares",
+  medium: "https://medium.com/@mikailhassan",
+  stackoverflow: "https://stackoverflow.com/users/10422806/mikail-hassan",
+  
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -60,8 +59,8 @@ const skillsSection = {
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+ 
+//fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -161,7 +160,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,28 +173,20 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Equity",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "jan 2020 – Present",
+      company: "Balambala Secondary School",
+      date: "jan 2020 – September 2023",
       desc: "helped design software solutions.",
       descBullets: [
-        "Brought in some good money",
-        "automated customer service through the use of AI"
+        "Maintained system for analysis of exams",
+        "mainatined offline systems for fees analysis and timetabling."
       ]
     },
+    
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "may 2020 – May 2021",
-      desc: "Helped design appealing UI/UX web pages."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2023 – Sep 2023",
-    desc: "helped design logic for fronted developers."
+      role: "ICT OFFICER ",
+      company: "IEBC",
+      date: "OCT5 2021 – Sep 2022",
+    desc: "Maintainance of software systmes for the Independent Electoral and Boundaries Commision."
     }
   ]
 };
@@ -215,25 +206,24 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "DeviceHabour",
+      projectDesc: "An E-commerce application , where a user can sign up,login , buy product,pay and an admin can add a product, view bought products and more",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://deviceharbor.netlify.app/"
         }
-        //  you can add extra buttons here.
+        //  can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+     
+      projectName: "Safari Wheels Kenya",
+      projectDesc: "A car rental app where a user can signup,login ,hire  a car,pay and view their hires.An admin can add,update and delete cars,approve hires and more,  ",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://car-rental-frontend-fhgm.vercel.app/"
         }
       ]
     }
@@ -253,7 +243,7 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Somali to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "First Kenyan Somali to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
