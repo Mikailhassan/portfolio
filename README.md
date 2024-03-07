@@ -14,9 +14,9 @@ Welcome to my developer portfolio! I'm a passionate developer with experience in
 ## Projects
 Here are some of the projects I've worked on:
 
-- [Project 1](link): Short description of the project.
-- [Project 2](link): Short description of the project.
-- [Project 3](link): Short description of the project.
+- [Project 1](link): .
+- [Project 2](link): 
+- [Project 3](link):
 
 Feel free to explore more projects on my [GitHub profile](https://github.com/Mikailhassan).
 
